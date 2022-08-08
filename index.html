@@ -10,7 +10,8 @@
   <body>
     <main>
       <form class="container">
-        <label for="px-input">Pixels</label>
+        <span class="wrap">
+        <label for="px-input">px: </label>
         <input
           type="number"
           name="px-input"
@@ -18,8 +19,9 @@
           min="0"
           step="2"
           value="16"
-        />
-        <label for="rem-input">rem</label>
+        /></span>
+        <span class="wrap">
+        <label for="rem-input">rem: </label>
         <input
           type="number"
           name="rem-input"
@@ -27,7 +29,7 @@
           min="0"
           step="0.125"
           value="1"
-        />
+        /></span>
         <button class="btn" id="resetButton" type="reset">RESET</button>
       </form>
     </main>
